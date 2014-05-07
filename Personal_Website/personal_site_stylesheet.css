@@ -181,3 +181,21 @@ nav ul a:hover, nav ul a:active, .active {
 #welcome-message {
 	background: rgba(33, 222, 71, .5);
 }
+
+input[type="submit"]{
+	font-family: 'Orbitron', 'sans-serif', Arial, 'Lucida Sans Unicode';
+	font-weight: bold;
+	background: -webkit-linear-gradient(white, rgba(33, 222, 71, .5));
+	background: -o-linear-gradient(white, rgba(33, 222, 71, .5));
+	background: -moz-linear-gradient(white, rgba(33, 222, 71, .5));
+	background: linear-gradient(white, rgba(33, 222, 71, .5));
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+input[type="submit"]:active {
+	background: -webkit-linear-gradient(rgba(33, 222, 71, .5), white);
+	background: -o-linear-gradient(rgba(33, 222, 71, .5), white);
+	background: -moz-linear-gradient(rgba(33, 222, 71, .5), white);
+	background: linear-gradient(rgba(33, 222, 71, .5), white);
+}
