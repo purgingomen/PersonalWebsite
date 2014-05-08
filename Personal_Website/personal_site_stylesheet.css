@@ -181,7 +181,9 @@ nav ul a:hover, nav ul a:active, .active {
 #welcome-message {
 	background: rgba(33, 222, 71, .5);
 }
-
+input[type="submit"]:focus {
+	outline-color: #C900B8; 
+}
 input[type="submit"]{
 	font-family: 'Orbitron', 'sans-serif', Arial, 'Lucida Sans Unicode';
 	font-weight: bold;
